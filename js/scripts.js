@@ -10,8 +10,14 @@ var pokemonRepository =  (function () {
   ];
 
   function add(pokemon) {
-    repository.push(pokemon);
+    if (typeof(pokemon) === 'object') {
+      repository.push(pokemon);
+    }
+      else {
+       document.write('Please ensure your pokemon has the correct format: {name: (string), height: (number), types: [array of strings]}');
+     }
   }
+
 
   function getAll() {
     return repository;
