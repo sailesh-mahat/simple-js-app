@@ -1,20 +1,69 @@
-/* Colors */
-span {
-  letter-spacing: 0.2em;
+
+body {
+  font-family: sans-serif, fantasy;
+  color: #000;
 }
 
-.green_bg {
-  background-color: green;
+h1 {
+  font-size: 22px;
 }
 
-.red_bg {
-  background-color: red;
+p {
+  font-size: 16px;
 }
 
-.blue_bg {
-  background-color: blue;
+.page {
+  display: grid;
+  max-width: 500px;
+  height: auto;
+  margin: 0 auto;
 }
 
-.purple_bg {
-  background-color: purple;
+.pokedex {
+  display: grid;
+  grid-template-rows: 15% 85%;
+}
+
+header {
+  padding-left: 10px;
+}
+
+.menu {
+  height: 180%;
+  display: grid;
+  grid-template-rows: 50% 50%;
+}
+
+.list-menu {
+  height: 100%;
+  background-color: #fff;
+  padding: 10px;
+}
+
+.pokemon-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.list-item {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: #e6e6e6;
+  padding-left: 30px;
+  margin: 5px;
+}
+
+.info-button {
+  text-decoration: underline;
+  border: none;
+  font-style: inherit;
+  font-size: 14px;
+  background-color: #e6e6e6;
+  margin: 0 auto;
+}
+
+footer {
+  display: grid;
+  text-align: center;
 }
