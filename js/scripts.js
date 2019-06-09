@@ -13,9 +13,9 @@ var pokemonRepository =  (function () {
     if (typeof(pokemon) === 'object') {
       repository.push(pokemon);
     }
-      else {
-       document.write('Please ensure your pokemon has the correct format: {name: (string), height: (number), types: [array of strings]}');
-     }
+      //else {
+       //document.write('Please ensure your pokemon has the correct format: {name: (string), height: (number), types: [array of strings]}');
+     //}
   }
 
 
@@ -48,10 +48,10 @@ pokemonRepository.add({name:'Dragonite', height:2.2, types: ['dragon','flying']}
 pokemonRepository.add({name:'Heatmor', height:1.4, types: ['fire']});
 //using getAll() to display the added repository items
 pokemonRepository.getAll().forEach(function(currentPokemon) {
-  document.write("<p>" + currentPokemon.name +" ");
-  document.write('(Height:' + currentPokemon.height +")");
+  //document.write("<p>" + currentPokemon.name +" ");
+  //document.write('(Height:' + currentPokemon.height +")");
   if (currentPokemon.height >= 2.0){
-    document.write('Wow! That\'s big.</p>');
+    //document.write('Wow! That\'s big.</p>');
   }
 });
 
