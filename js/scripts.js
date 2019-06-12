@@ -85,7 +85,7 @@ var pokemonRepository = (function() {
  return {
    add: add,
    getAll: getAll,
-   addListItem: addListItem
+   addListItem: addListItem 
   };
 })(); // IIFE wrapping closed
 
