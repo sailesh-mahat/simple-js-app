@@ -21,6 +21,7 @@ p {
 
 .pokedex {
   display: grid;
+  grid-template-rows: 15% 85%;
 }
 
 header {
@@ -28,6 +29,7 @@ header {
 }
 
 .menu {
+  height: 180%;
   display: grid;
   grid-template-rows: 50% 50%;
 }
@@ -50,7 +52,7 @@ header {
   background-color: #e6e6e6;
   padding-left: 30px;
   margin: 5px;
-}
+} 
 
 .info-button {
   text-decoration: underline;
